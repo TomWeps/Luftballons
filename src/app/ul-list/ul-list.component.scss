@@ -1,0 +1,8 @@
+ul.list {
+  
+    list-style-type: none;    
+}
+
+::ng-deep .list li:nth-child(2) .ballon {
+    color: blue;
+}
