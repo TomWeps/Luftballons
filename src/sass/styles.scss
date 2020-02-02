@@ -1,6 +1,14 @@
 @import './variables';
 @import './mixins';
 
+.section {
+    padding: 6px;
+    margin: 6px;
+    border: 2px solid red;
+    max-width: 400px;
+  }
+
+
 
 .ballon {
     color: red;
@@ -11,7 +19,9 @@
 
 
 .ballon {
+
     &.ballon-blue {
         color: blue;
     }
+    
 }

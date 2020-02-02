@@ -1,7 +1,0 @@
-<ul class="list">
-  <li *ngFor='let item of [1,2]'>
-      {{item}}
-      <app-ballon [styleClass]='item===2 ? "ballon-blue": ""'></app-ballon>      
-      <app-dd-list *ngIf="showChildList" ></app-dd-list>
-  </li>   
-</ul>

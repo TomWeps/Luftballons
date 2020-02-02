@@ -1,0 +1,21 @@
+.section {
+    border: blue 2px solid;    
+}
+
+ul.list {
+    list-style-type: none;
+    padding: 0;
+    
+    li {
+        //display: inline;
+        //text-align: left;
+    }
+}
+
+/*
+::ng-deep .list li:nth-child(2) .ballon {
+    color: blue;
+}
+*/
+
+
