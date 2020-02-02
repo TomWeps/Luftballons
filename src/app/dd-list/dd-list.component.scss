@@ -9,6 +9,15 @@ dl.list {
     }
 }
 
+/*
 ::ng-deep .list dd .ballon {
     color: green;
+}
+*/
+
+
+::ng-deep .ballon {
+    &.app-dd-list {
+        color: green;
+    }
 }

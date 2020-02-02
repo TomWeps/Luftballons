@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-ballon',
@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ballon.component.scss']
 })
 export class BallonComponent implements OnInit {
+
+  @Input()
+  styleClass: string;
 
   constructor() { }
 

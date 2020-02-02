@@ -1,15 +1,17 @@
 @import './variables';
 @import './mixins';
 
-/*
+
 .ballon {
     color: red;
 }
-*/
 
-section {
-    border-style: solid;
-    border-color: black;
-    box-sizing: border-box;
-    
+
+
+
+
+.ballon {
+    &.ballon-blue {
+        color: blue;
+    }
 }
