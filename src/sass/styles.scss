@@ -1,5 +1,10 @@
-@import './variables';
+ @import './variables';
 @import './mixins';
+@import './font-kld-icons';
+
+body {
+    font-size: large;    
+}
 
 .section {
     padding: 6px;
@@ -8,14 +13,9 @@
     max-width: 400px;
   }
 
-
-
 .ballon {
     color: red;
 }
-
-
-
 
 
 .ballon {
