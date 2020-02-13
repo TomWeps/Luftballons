@@ -1,4 +1,17 @@
 <div class="section">
+  <div class="component-title">Component C</div>
+
+  <!-- Before -->
+  <!--
+  <dl class="list">
+    <ng-container *ngFor='let item of [1,2]'>
+      <dt>{{item}}</dt>
+      <dd><app-ballon></app-ballon></dd>        
+    </ng-container>
+  </dl>
+  -->
+
+  <!-- After -->
   <ul class="list">
     <li *ngFor='let item of [1,2]'>        
         <app-ballon [styleClass]='item===2 ? "ballon-blue": ""'></app-ballon>
@@ -7,4 +20,6 @@
         </div>
     </li>   
   </ul>
+  
+  
 </div>

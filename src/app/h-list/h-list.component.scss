@@ -13,17 +13,24 @@ ul.list {
     }
 }
 
-
-
-/*
-::ng-deep .list dd .ballon {
+/* Before 1 
+::ng-deep ul li i {
     color: green;
 }
 */
 
+/* Before 2
+::ng-deep .list .ballon {
+    color: green;
+}
+ */
+
+/* After
 
 ::ng-deep .ballon {
     &.app-dd-list {
         color: green;
     }
 }
+
+*/

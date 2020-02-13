@@ -1,27 +1,16 @@
- @import './variables';
+@import './variables';
 @import './mixins';
 @import './font-kld-icons';
-
-body {
-    font-size: large;    
-}
-
-.section {
-    padding: 6px;
-    margin: 6px;
-    border: 2px solid red;
-    max-width: 400px;
-  }
-
-.ballon {
-    color: red;
-}
+@import './typography';
+@import './layout';
+@import './vendors/origin';
+@import './vendors/ballon';
 
 
-.ballon {
 
-    &.ballon-blue {
-        color: blue;
-    }
-    
-}
+
+
+
+
+
+

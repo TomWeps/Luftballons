@@ -2,19 +2,31 @@
     border: blue 2px solid;    
 }
 
-ul.list {
-    list-style-type: none;
-    padding: 0;
+dl {
     
-    li {
-        margin-top: 10px;
+     dt {
+        padding: 0;
+        margin: 0;
+        float: left;
+    }
+
+    dd {
+        padding: 0;
+        margin: 0 0px 10px 0;
     }
 }
 
-/*
+/* Before 1
+::ng-deep dl dd:nth-of-type(2) .ballon {
+    color: blue;
+}
+*/
+
+/* Before 2
 ::ng-deep .list li:nth-child(2) .ballon {
     color: blue;
 }
 */
 
 
+/* After */

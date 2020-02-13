@@ -8,8 +8,6 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 })
 export class HListComponent implements OnInit {
 
-  items: string[] = [ 'alfa', 'beta', 'gamma'];
-
   constructor() { }
 
   ngOnInit() {
