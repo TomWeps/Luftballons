@@ -1,27 +1,39 @@
 # Luftballons
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
+This is a demo application for a presentation about styling rules in the angular application and how to avoid ng-deep conflicts.
 
-## Development server
+## Content
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+demo branches
+* 01 - CSS Selectors & Specificity
+* 02 - Angular View Encapsulation ( Shadow DOM )
+* 02 - DRY
+* 03 - NG-Deep -> Conflicts
+* 04 - NG Deep -> Bad solution
+* 05 - Solution -> With Ng-Deep
+* 06 - Solution -> Global (Without Ng Deep)
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Resources
 
-## Build
+CSS Specificity
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+- [Specificity Calculator](https://specificity.keegan.st/)
+- [Star Wars Poster](https://joshbroton.com/sessions/html-and-css-101/rs/starwars.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Sass:
+- [Guide](https://sass-lang.com/guide)
 
-## Running unit tests
+View Encapsulation;
+- https://coryrylan.com/blog/css-encapsulation-with-angular-components
+- https://developer.mozilla.org/en-US/docs/Web/API/Element/createShadowRoot
+- https://stackblitz.com/edit/angular-oqnk17?file=src%2Fapp%2Fsecond%2Fsecond.component.ts
+- 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+CSS Games:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- [CSS Diner (selectors)](https://flukeout.github.io)
+- [Grid Garden](http://cssgridgarden.com/)
+- [Flexbox Froggy](http://flexboxfroggy.com/)
+- [Flexbox Defense](http://www.flexboxdefense.com/)
